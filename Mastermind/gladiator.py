@@ -1,8 +1,7 @@
-from itertools import combinations, permutations, chain
+from itertools import combinations, permutations
 from random import sample, shuffle
 from math import factorial, comb
 from time import time
-import pdb
 
 class Gladiator:
     def __init__(self, num_weapons, num_opponents, threshold=4000000):
