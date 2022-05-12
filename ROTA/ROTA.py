@@ -87,8 +87,8 @@ def next_game():
 
 def get_hash(hashString):
     print("Saving hash to " + email + "_hash.txt")
-    f = open(email + "_hash.txt","w")
-    f.write("Email: " + email +  "\nHash: " + hashString)
+    with open(email + "_hash.txt", "w") as f:
+        f.write("Email: " + email +  "\nHash: " + hashString)
     sys.exit()
 
 ##------------------------------------------------------------------------------------------
