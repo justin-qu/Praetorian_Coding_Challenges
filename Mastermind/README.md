@@ -2,6 +2,7 @@
 
 ### Dependencies
 * Python Version: 3.6
+* Python 'requests' module
 
 This code is for the [Praetorian Mastermind Challenge](https://www.praetorian.com/challenges/mastermind).
 
