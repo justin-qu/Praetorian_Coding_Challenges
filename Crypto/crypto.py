@@ -5,8 +5,8 @@ import zlib
 from itertools import permutations, combinations_with_replacement
 
 ## Globals
-email   = 'johnsmith@email.com'
-##email   = input("Enter your email address: ")
+##email   = 'johnsmith@email.com'
+email   = input("Enter your email address: ")
 baseURL = "http://crypto.praetorian.com"
 
 r = requests.post('{url}/api-token-auth/'.format(url=baseURL), data={'email':email})
