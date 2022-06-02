@@ -12,7 +12,7 @@ This code is for the [Praetorian Mastermind Challenge](https://www.praetorian.co
 * __gladiatorTest.py__ contains code used to simulate a level and debug __gladiator.py__.
 
 ### How To Use
-1. Run __Mastermind.py__.
+1. Run __mastermind.py__.
 
 ### Algorithms
 The primary guessing algorithm used in the logic is a variation of [Kunth's Mastermind Algorithm](https://en.wikipedia.org/wiki/Mastermind_(board_game)#Worst_case:_Five-guess_algorithm) (KMA). 
